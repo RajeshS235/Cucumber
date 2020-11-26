@@ -27,10 +27,6 @@ public class BaseClass {
 	public static void urlLaunch(String url) {
 		driver.get(url);
 	}
-	public static void close() {
-		driver.close();
-
-	}
 	public static void skipwindow() throws AWTException {
 		Robot r = new Robot();
 		r.keyPress(KeyEvent.VK_ESCAPE);
