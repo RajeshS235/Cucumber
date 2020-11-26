@@ -22,7 +22,6 @@ public class BaseClass {
 		
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	public static void urlLaunch(String url) {
 		driver.get(url);
